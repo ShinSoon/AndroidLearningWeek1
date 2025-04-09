@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">HelloWorldApp</string>
+
+    <string name="submit_button_label">Submit Form</string>
+    <string name="Enter_Your_Name_Here">Enter your name here </string>
+</resources>
+
