@@ -117,10 +117,10 @@ class MainActivity : ComponentActivity() { // Or AppCompatActivity() if you need
                 // Context: this@MainActivity( the current Acitivity instance)
                 // Target: SecondActivity:: class.java(the class of the Activity)
                 try {
-                    //val intent = Intent(this@MainActivity, SecondActivity::class.java)
+                    val intent = Intent(this@MainActivity, ListActivity::class.java)
                     Log.d(LOG_TAG, "About to start SecondActivity")
                     //intent.putExtra("USER_NAME_EXTRA", enteredName)
-                    //startActivity(intent)
+                    startActivity(intent)
                     Log.d(LOG_TAG, "SecondActivity started successfully")
                 } catch (e: Exception) {
                     Log.e(LOG_TAG, "Error starting SecondActivity", e)
